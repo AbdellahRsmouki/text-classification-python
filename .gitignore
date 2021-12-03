@@ -4,3 +4,6 @@ asins.csv
 products.json
 dumps/*.json
 metadata.json
+train
+retail-products-classification-challenge
+retail-products-classification
