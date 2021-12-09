@@ -56,7 +56,7 @@ pipeline = Pipeline([
 y_pred = cross_val_predict(
     pipeline, dataset.get('data'),
     y=dataset.get('target'),
-    cv=10, n_jobs=-1, verbose=20
+    cv=10, verbose=20
 )
 
 # Compute precison, recall and f1 scode.
